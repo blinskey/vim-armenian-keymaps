@@ -1,5 +1,6 @@
 " Maintainer: Benjamin Linskey <ben@benlinskey.com>
-" Last Changed: 2016 May 11
+" Last Changed: 2016 May 12
+" URL: https://github.com/blinskey/vim-western-armenian
 
 let b:keymap_name = "w_hy"
 

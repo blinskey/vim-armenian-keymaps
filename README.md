@@ -1,16 +1,17 @@
-# Vim Western Armenian Keymap
+# Vim Armenian Keymaps
 
-This is a Vim keymap for the Armenian alphabet. It can be used to type Armenian
-characters in Insert mode while retaining standard functionality in Normal
-mode.
-
-This keymap is based on a standard Western Armenian keyboard layout, but it can
-also be used to write Eastern Armenian.
+This is a set of Vim keymaps for the Armenian alphabet. The keymaps can be used
+to type Armenian characters in Insert mode while retaining standard
+functionality in Normal mode.
 
 ## Setup
 
-Copy or link `western-armenian_utf-8.vim` to the directory
-`/usr/share/vim/vim74/keymap/`, then enable the keymap in your `.vimrc`:
+Copy or link a keymap file to the directory `/usr/share/vim/vim74/keymap/`,
+then enable the keymap in your `.vimrc` using the `keymap` option.
+
+For example, to use the Western Armenian keymap, copy or link
+`western-armenian_utf-8.vim` to the directory `/usr/share/vim/vim74/keymap/`,
+then enable the keymap in your `.vimrc`:
 
 ```vim
 set keymap=western-armenian_utf-8
@@ -26,3 +27,9 @@ set imsearch=0
 ```
 
 For more information on keymaps, see `:help mbyte-keymap`.
+
+## To Do
+
+- Armenian (phonetic)
+- Armenian (alternative phonetic)
+- Armenian (alternative eastern)

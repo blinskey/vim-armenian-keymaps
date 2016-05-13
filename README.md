@@ -9,11 +9,11 @@ also be used to write Eastern Armenian.
 
 ## Setup
 
-Copy or link `western_armenian_utf-8.vim` to the directory
+Copy or link `western-armenian_utf-8.vim` to the directory
 `/usr/share/vim/vim74/keymap/`, then enable the keymap in your `.vimrc`:
 
 ```vim
-set keymap=western_armenian_utf-8
+set keymap=western-armenian_utf-8
 ```
 
 You can switch between Armenian and Latin characters in Insert mode using

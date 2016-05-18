@@ -4,8 +4,11 @@ This is a set of Vim keymaps for the Armenian alphabet. The keymaps can be used
 to type Armenian characters in Insert mode while retaining standard
 functionality in Normal mode.
 
-These mappings are based on the xkeyboard-config Armenian keymaps. Please feel
-free to submit additional keymaps or corrections.
+Most of these mappings are based on the xkeyboard-config Armenian keymaps.
+`western-armenian-alt-utf-8.vim` is an experimental hybrid of the Western
+Armenian and phonetic keymaps that is subject to change.
+
+Please feel free to submit additional keymaps or corrections.
 
 ## Setup
 

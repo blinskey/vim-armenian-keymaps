@@ -4,6 +4,9 @@ This is a set of Vim keymaps for the Armenian alphabet. The keymaps can be used
 to type Armenian characters in Insert mode while retaining standard
 functionality in Normal mode.
 
+These mappings are based on the xkeyboard-config Armenian keymaps. Please feel
+free to submit additional keymaps or corrections.
+
 ## Setup
 
 Copy or link a keymap file to the directory `/usr/share/vim/vim74/keymap/`,
@@ -27,9 +30,3 @@ set imsearch=0
 ```
 
 For more information on keymaps, see `:help mbyte-keymap`.
-
-## To Do
-
-- Armenian (phonetic)
-- Armenian (alternative phonetic)
-- Armenian (alternative eastern)

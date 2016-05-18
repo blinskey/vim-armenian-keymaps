@@ -1,5 +1,5 @@
 " Maintainer: Benjamin Linskey <ben@benlinskey.com>
-" Last Changed: 2016 May 12
+" Last Changed: 2016 May 18
 " URL: https://github.com/blinskey/vim-armenian-keymaps
 
 let b:keymap_name = "hy"
@@ -27,7 +27,7 @@ H   Հ
 >   Ղ
 J   Ճ
 M   Մ
-X   Յ
+#   Յ
 N   Ն
 <   Շ
 O   Ո
@@ -67,7 +67,7 @@ h   հ
 >   ղ
 j   ճ
 m   մ
-x   յ
+3   յ
 n   ն
 <   շ
 o   ո

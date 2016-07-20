@@ -9,7 +9,7 @@ loadkeymap
 " Capital letters
 A   Ա
 B   Բ
-G   Գ
+C   Գ
 D   Դ
 Y   Ե
 Z   Զ
@@ -42,14 +42,14 @@ R   Ր
 X   Ց
 W   Ւ
 \"  Փ
-C   Ք
+G   Ք
 )   Օ
 F   Ֆ
 
 " Lowercase letters
 a   ա
 b   բ
-g   գ
+c   գ
 d   դ
 y   ե
 z   զ
@@ -82,7 +82,7 @@ r   ր
 x   ց
 w   ւ
 '   փ
-c   ք
+g   ք
 0   օ
 f   ֆ
 

@@ -1,5 +1,5 @@
 " Maintainer: Benjamin Linskey <ben@benlinskey.com>
-" Last Changed: 2016 May 12
+" Last Changed: 2016 July 20
 " URL: https://github.com/blinskey/vim-armenian-keymaps
 
 let b:keymap_name = "hy"
@@ -89,6 +89,7 @@ f   ֆ
 &   և
 
 " Punctuation
+`   ՝
 ~   ՜
 1   ։
 4   ՛

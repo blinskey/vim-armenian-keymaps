@@ -1,4 +1,4 @@
-" Maintainer: Benjamin Linskey <ben@benlinskey.com>
+" Maintainer: Benjamin Linskey <vim@benlinskey.com>
 " Last Changed: 2016 May 18
 " URL: https://github.com/blinskey/vim-armenian-keymaps
 

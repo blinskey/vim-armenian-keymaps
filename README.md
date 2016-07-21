@@ -35,3 +35,23 @@ set imsearch=0
 ```
 
 For more information on keymaps, see `:help mbyte-keymap`.
+
+## Layouts
+
+### Eastern Armenian
+
+![Eastern Armenian keyboard layout](img/KB_Eastern_Armenian.svg.png)
+
+*The original uploader was Pokajanje at English Wikipedia. (Transferred from
+en.wikipedia to Commons.) [[CC BY-SA 3.0][]],
+[via Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AKB_Eastern_Armenian.svg).*
+
+### Western Armenian
+
+![Western Armenian keyboard layout](img/KB_Western_Armenian.svg.png)
+
+*The original uploader was Pokajanje at English Wikipedia. (Transferred from
+en.wikipedia to Commons.) [[CC BY-SA 3.0][]],
+[via Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AKB_Western_Armenian.svg).*
+
+[CC BY-SA 3.0]: http://creativecommons.org/licenses/by-sa/3.0

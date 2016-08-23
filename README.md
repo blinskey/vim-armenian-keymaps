@@ -17,7 +17,7 @@ or patches sent to <vim@benlinskey.com>.
 ### Installing the keymap files
 
 The keymaps on the `master` branch are included with Vim, so you can skip ahead
-to [Activaing a keymap](#activating-a-keymap) if you’re using a newer version
+to [Activating a keymap](#activating-a-keymap) if you’re using a newer version
 of Vim and you don’t need one of the alternate keymaps from the `alt` branch.
 
 If the keymap file you want to use isn’t installed on your system, copy or link

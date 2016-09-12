@@ -16,13 +16,14 @@ or patches sent to <vim@benlinskey.com>.
 
 ### Installing the keymap files
 
-The keymaps on the `master` branch are included with Vim, so you can skip ahead
-to [Activating a keymap](#activating-a-keymap) if you’re using a newer version
-of Vim and you don’t need one of the alternate keymaps from the `alt` branch.
-
-If the keymap file you want to use isn’t installed on your system, copy or link
-the file to your Vim keymap directory (`/usr/share/vim/vim74/keymap` by default
-in Vim 7.4).
+You’ll first need to ensure that the Armenian keymap files are installed in
+Vim’s `keymap` directory. If you’re using Vim 8 or a late release of Vim 7.4,
+the keymaps on the `master` branch are included out of the box, so you can skip
+ahead to [Activating a keymap](#activating-a-keymap). If you’re using an older
+version of Vim that doesn’t include the keymaps or if you’d like to use a
+keymap from the `alt` branch, you’ll need to copy or link your desired keymap
+files to your Vim keymap directory (`/usr/share/vim/vim74/keymap` by default in
+Vim 7.4).
 
 ### Activating a keymap
 

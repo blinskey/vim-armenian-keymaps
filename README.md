@@ -2,42 +2,38 @@
 
 This is a set of Vim keymaps for the Armenian alphabet. The keymaps can be used
 to type Armenian characters in Insert mode while retaining standard
-functionality in Normal mode.
+functionality in Normal mode. For more information on Vim keymaps, see
+`:help mbyte-keymap`.
 
-The `master` branch provides a pair of common mappings for the Western and
-Eastern dialects that cover the full alphabet and all standard punctuation
-marks. These are included in the [Vim source code][]. The `alt` branch provides
-an alternate set of mappings based on the xkeyboard-config Armenian keymaps.
+`armenian-eastern_utf-8.vim` and `armenian-western_utf-8.vim` are included in
+the [Vim source code][]. The `extra` directory contains additional alternate
+keymaps.
 
-Please feel free to submit additional keymaps or corrections as pull requests
-or patches sent to <vim@benlinskey.com>.
+Diagrams of the [Eastern][eastern-img] and [Western][western-img] are available
+on Wikimedia.
 
-## Setup
+## Requirements and Installation
 
-### Installing the keymap files
+Your Vim installation must be compiled with the `+keymap` feature. Use
+`:version` to check which features are available.
 
-You’ll first need to ensure that the Armenian keymap files are installed in
-Vim’s `keymap` directory. If you’re using Vim 8 or a late release of Vim 7.4,
-the keymaps on the `master` branch are included out of the box, so you can skip
-ahead to [Activating a keymap](#activating-a-keymap). If you’re using an older
-version of Vim that doesn’t include the keymaps or if you’d like to use a
-keymap from the `alt` branch, you’ll need to copy or link your desired keymap
-files to your Vim keymap directory (`/usr/share/vim/vim74/keymap` by default in
-Vim 7.4).
-
-### Activating a keymap
+Your version of Vim may come with the primary keymaps preinstalled. If they are
+not installed or you'd like to use one of the `extra` keymaps, copy or link
+your desired keymap(s) to `~/.vim/keymap/` or another location in Vim's runtime
+path (see `:h runtimepath`).
 
 To use a keymap, you’ll need to enable it in your `.vimrc` using the `keymap`
-option. For example, to use the Western Armenian keymap, copy or link
-`armenian-western_utf-8.vim` to the directory `/usr/share/vim/vim74/keymap/`,
-then enable the keymap in your `.vimrc`:
+option. For example, to use the Western Armenian keymap, ensure that
+`armenian-western_utf-8.vim` is in your Vim runtime path, then enable the
+keymap in your `.vimrc`:
 
 ```vim
 set keymap=armenian-western_utf-8
 ```
 
 You can switch between Armenian and Latin characters in Insert mode using
-<kbd>Ctrl-^</kbd>. To disable the keymap at Vim startup so that Insert mode
+<kbd>Ctrl-^</kbd> (i.e., <kbd>Ctrl-Shift-6</kbd> on a standard English keyboard
+layout). To disable the keymap at Vim startup so that Insert mode
 uses Latin characters by default, add the following lines to your `.vimrc`:
 
 ```vim
@@ -45,25 +41,6 @@ set iminsert=0
 set imsearch=0
 ```
 
-For more information on keymaps, see `:help mbyte-keymap`.
-
-## Layouts
-
-### Eastern Armenian
-
-![Eastern Armenian keyboard layout](img/KB_Eastern_Armenian.svg.png)
-
-*The original uploader was Pokajanje at English Wikipedia. (Transferred from
-en.wikipedia to Commons.) [[CC BY-SA 3.0][]],
-[via Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AKB_Eastern_Armenian.svg).*
-
-### Western Armenian
-
-![Western Armenian keyboard layout](img/KB_Western_Armenian.svg.png)
-
-*The original uploader was Pokajanje at English Wikipedia. (Transferred from
-en.wikipedia to Commons.) [[CC BY-SA 3.0][]],
-[via Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AKB_Western_Armenian.svg).*
-
 [Vim source code]: https://github.com/vim/vim
-[CC BY-SA 3.0]: http://creativecommons.org/licenses/by-sa/3.0
+[eastern-img]: https://commons.wikimedia.org/wiki/File:KB_Eastern_Armenian.svg
+[western-img]: https://commons.wikimedia.org/wiki/File:KB_Western_Armenian.svg

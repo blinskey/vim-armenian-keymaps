@@ -12,6 +12,10 @@ keymaps.
 Diagrams of the [Eastern][eastern-img] and [Western][western-img] layouts are
 available on Wikimedia.
 
+The source code for this project is available at
+<https://fossil.linskey.org/vim-armenian-keymaps>. The Git repository at
+<https://github.com/blinskey/vim-armenian-keymaps> is a mirror.
+
 ## Requirements and Installation
 
 Your Vim installation must be compiled with the `+keymap` feature. Use

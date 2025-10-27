@@ -9,8 +9,8 @@ functionality in Normal mode. For more information on Vim keymaps, see
 the [Vim source code][]. The `extra` directory contains additional alternate
 keymaps.
 
-Diagrams of the [Eastern][eastern-img] and [Western][western-img] are available
-on Wikimedia.
+Diagrams of the [Eastern][eastern-img] and [Western][western-img] layouts are
+available on Wikimedia.
 
 ## Requirements and Installation
 

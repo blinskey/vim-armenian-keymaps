@@ -1,6 +1,6 @@
-" Maintainer: Benjamin Linskey <vim@benlinskey.com>
+" Maintainer: Benjamin Linskey <vim@linskey.org>
 " Last Changed: 2016 May 12
-" URL: https://github.com/blinskey/vim-armenian-keymaps
+" URL: https://git.linskey.org/vim-armenian-keymaps
 
 let b:keymap_name = "hy"
 

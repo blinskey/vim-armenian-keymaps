@@ -1,4 +1,5 @@
-# Vim Armenian Keymaps
+Vim Armenian Keymaps
+====================
 
 This is a set of Vim keymaps for the Armenian alphabet. The keymaps can be used
 to type Armenian characters in Insert mode while retaining standard
@@ -6,13 +7,14 @@ functionality in Normal mode. For more information on Vim keymaps, see
 `:help mbyte-keymap`.
 
 `armenian-eastern_utf-8.vim` and `armenian-western_utf-8.vim` are included in
-the [Vim source code][]. The `extra` directory contains additional alternate
+the [Vim source code][1]. The `extra` directory contains additional alternate
 keymaps.
 
-Diagrams of the [Eastern][eastern-img] and [Western][western-img] layouts are
-available on Wikimedia.
+Diagrams of the [Eastern][2] and [Western][3] layouts are available on
+Wikimedia.
 
-## Requirements and Installation
+Requirements and Installation
+-----------------------------
 
 Your Vim installation must be compiled with the `+keymap` feature. Use
 `:version` to check which features are available.
@@ -27,20 +29,16 @@ option. For example, to use the Western Armenian keymap, ensure that
 `armenian-western_utf-8.vim` is in your Vim runtime path, then enable the
 keymap in your `.vimrc`:
 
-```vim
-set keymap=armenian-western_utf-8
-```
+    set keymap=armenian-western_utf-8
 
 You can switch between Armenian and Latin characters in Insert mode using
 <kbd>Ctrl-^</kbd> (i.e., <kbd>Ctrl-Shift-6</kbd> on a standard English keyboard
 layout). To disable the keymap at Vim startup so that Insert mode
 uses Latin characters by default, add the following lines to your `.vimrc`:
 
-```vim
-set iminsert=0
-set imsearch=0
-```
+    set iminsert=0
+    set imsearch=0
 
-[Vim source code]: https://github.com/vim/vim
-[eastern-img]: https://commons.wikimedia.org/wiki/File:KB_Eastern_Armenian.svg
-[western-img]: https://commons.wikimedia.org/wiki/File:KB_Western_Armenian.svg
+[1]: https://github.com/vim/vim
+[2]: https://commons.wikimedia.org/wiki/File:KB_Eastern_Armenian.svg
+[3]: https://commons.wikimedia.org/wiki/File:KB_Western_Armenian.svg

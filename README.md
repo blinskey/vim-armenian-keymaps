@@ -13,6 +13,9 @@ keymaps.
 Diagrams of the [Eastern][2] and [Western][3] layouts are available on
 Wikimedia.
 
+This repository is hosted at <https://git.linskey.org/vim-armenian-keymaps>
+and mirrored to <https://github.com/blinskey/vim-armenian-keymaps>.
+
 Requirements and Installation
 -----------------------------
 
